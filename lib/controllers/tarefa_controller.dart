@@ -1,10 +1,9 @@
 import 'package:flutter/foundation.dart';
 
-import '../database/database_helper.dart';
+import '../database/database.dart';
 import '../models/tarefa.dart';
 
-/// Controla o estado das tarefas. As telas ouvem este controller
-/// e se atualizam sozinhas quando algo muda.
+
 class TarefaController extends ChangeNotifier {
   TarefaController._();
   static final TarefaController instance = TarefaController._();
